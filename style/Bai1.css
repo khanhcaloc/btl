@@ -1,0 +1,65 @@
+.main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .header {
+    background-color: #ccc;
+    border: 5px solid red;
+    height: 100px;
+    width: 100%;
+}
+
+.main .right-conlumn {
+
+    float: right;
+    background-color: #ccc;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+    width: 100px;
+    margin-right: -10px;
+    height: 500px;
+}
+
+.main .left-conlumn {
+    background-color: #ccc;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+    width: 100px;
+    height: 500px;
+    float: left;
+}
+
+.main .main-panel {
+    width: 690.8px;
+    min-height: 400px;
+    float: left;
+    background-color: bisque;
+    position: relative;
+
+}
+
+.main .main-panel-footer {
+   
+    background-color: rgb(81, 19, 249);
+    height: 100px;
+    clear: both;
+    width: 690.8px;
+    margin-left: 110px;
+    position: absolute;
+    top: 520px;
+
+}
+.main .page-footer {
+    background-color: #ccc;
+    height: 100px;
+    position: absolute;
+    width: 901px;
+    top: 622px;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;    
+}

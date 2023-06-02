@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    border-radius: 5px;
+    height: 100px;
+    border: 1px solid #cdcdcd;
+    background-color: #49fb2d;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.head .nav {
+    margin: 20px 0 0 20px;
+
+}
+
+.head .nav h2 {
+    font-weight: 800;
+}
+
+.left {
+    width: 150px;
+    height: 400px;
+    border: 1px solid #cdcdcd;
+    float: left;
+    background-color: #cdcdcd;
+    margin-bottom: 5px;
+}
+
+.left .menu li {
+    width: 100%;
+    background-color: #cdcdcd;
+    display: block;
+    border: 2px solid #ffffff;
+    line-height: 46px;
+    text-align: center;
+}
+
+.left .menu .menu-item {
+    text-decoration: none;
+}
+
+.left .menu-menu {
+    position: relative;
+}
+
+
+.left .menu li:hover {
+    background-color: antiquewhite;
+    transition: ease 0.6s;
+}
+
+.left .nav-menu {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 145px;
+    margin-left: 5px;
+
+}
+
+.left .nav-menu li {
+    line-height: 46px;
+    padding: 0 40px;
+}
+
+
+.left .menu-menu:hover .nav-menu {
+    display: block;
+    background-color: #49fb2d;
+
+
+}
+
+.content {
+    width: 600px;
+    min-height: 400px;
+    border: 1px solid #cdcdcd;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.paragrap img {
+    width: 100px;
+    height: 70px;
+    float: left;
+
+}
+
+.paragrap p {
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+
+.paragrap ul {
+    display: flex;
+}
+
+.paragrap ul li {
+    list-style-type: none;
+    margin-left: 4px;
+
+}
+
+.paragrap ul li a {
+
+    color: #000;
+}
+.content-style .imgate{
+    width: 100px;
+    height: 70px;
+    float: right;
+}  
+
+.right {
+    width: 234px;
+    height: 400px;
+    border: 1px solid #cdcdcd;
+    float: right;
+    background-color: #0ff;
+    margin-bottom: 5px;
+}
+
+.footer {
+    height: 150px;
+    clear: both;
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+}
